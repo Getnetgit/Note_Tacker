@@ -1,6 +1,6 @@
 const notes = require('express').Router();
-const { readFromFile, writeToFile, readAndAppend, readAndDelete } = require('../helpers/fsUtils.js');
-const { v4: uuidv4 } = require('uuid');
+const { readFromFile, writeToFile, readAndAppend} = require('../helpers/fsUtils.js');
+const { v4: uuidv4 } = require('uuid');//this is imported to generate a unique id for each record
 //const { request } = require('express');
 
 //const { readFromFile, readAndAppend } = require('../db/db.json');
@@ -9,6 +9,7 @@ notes.get('/', (req, res) => {
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
+//DELETE route to delete notes by ID for the record
 notes.delete('/:id', (req, res) => {
 
   console.info(`${req.method} request received to delete note`);

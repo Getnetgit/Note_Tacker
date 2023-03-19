@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "title": "Sample note 1",
+        "text": "Sample note 1 description.",
+        "note_id": "dc149c52-966f-4d90-8e7c-427506bf8cb4"
+    },
+    {
+        "title": "Sample note 2",
+        "text": "Sample note 2 description.",
+        "note_id": "8a73a9d5-2372-4ffc-84c8-00b52b3b0539"
+    },
+    {
+        "title": "Sample note 3.",
+        "text": "Sample note 3 description.",
+        "note_id": "14a2870b-3926-4612-935e-ac0c7d0e0e01"
+    },
+    {
+        "title": "Sample note 4",
+        "text": "Sample note 4 description.",
+        "note_id": "a9269187-78dc-41fe-b643-00125e1174a2"
+    }
+]
